@@ -1,0 +1,197 @@
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-----BODY -----*/
+body {
+	font-size: 16px;
+	font-family: 'helvetica';
+	font-weight: 300;
+}
+
+
+/*-----CONTAINER -----*/
+#container {
+	background-color: #e37262;   /*becomes the nav background color*/
+	min-width: 320px;
+	max-width: 1140px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/*-----HEADER -----*/
+header {
+	background-color: #424A54;
+}
+
+header hgroup{
+	font-family: 'helvetica';
+	color: #fff;
+}
+
+header h1 {
+	font-size: 2em;
+	padding: 10px;
+	padding-left: 25px;
+	
+}
+header h2 {
+	font-size: 1.05em;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+
+/** social icons */
+header ul.icons {
+	float:right;
+	padding-right: 2%;
+}
+
+header ul.icons li {
+	float: left;
+	margin-top: 1em;
+}
+
+header ul.icons li a {
+	opacity: 0.7;
+}
+
+
+header img.headerimage {
+	display: none;
+}
+
+
+/*-----NAVigation -----*/
+nav {}
+nav ul {
+	padding: 1em 0;
+}
+nav ul li {
+	float: left;
+	width: 46%;
+	margin: 0 2%;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	font-weight: 600;
+	margin: .2em 0;
+	padding: .6em 0;
+	text-decoration: none;
+	color: #fff;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 16px;
+	
+}
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.3);
+	
+}
+
+
+
+/*-----CONTENT -----*/
+#content {
+	min-height: 5em;
+	background-color: #fff;
+	background-image:url(/images/soft_wallpaper.gif);
+	padding: .5em 2%;
+}
+
+#content h1{
+	font-family: 'helvetica', cursive;
+	color: #5b0000;
+}
+
+#content hr {
+	height: 6px;
+	border: none;
+	border-radius: 3px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b0000+0,5b0000+100&1+0,1+0,0+100 */
+    background: -moz-linear-gradient(left, rgba(91,0,0,1) 0%, rgba(91,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(91,0,0,1) 0%,rgba(91,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(91,0,0,1) 0%,rgba(91,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0000', endColorstr='#005b0000',GradientType=1 ); /* IE6-9 */
+}
+
+
+#content article {
+	padding-bottom: 2em;
+	border-bottom: dotted 2px #ccc;
+}
+
+#content article h2 {
+	font-weight: 600;
+	font-size: 1.2em;
+	padding-top: 2em;
+	color: #424A54;
+}
+
+#content article p {
+	font-size: 1em;
+	padding: .3em 0 .1em 0em;
+	color: #763400;
+	line-height: 1.5em;
+}
+
+#content a.top {
+	background-color: #424a54;
+	font-size: .8em;
+	font-weight: 600;
+	color: #fff;
+	padding: .3em 1em;
+	margin-top: .3em;
+	float: right;
+	text-decoration: none;
+	border-radius: 15px / 30px;
+}
+
+
+#content a {
+	color: #fff;
+	-webkit-transition: color 0.4s ease;
+	transition: color 0.4s ease;
+}
+
+
+#content a:hover {
+	color: #d00000;
+	-webkit-transition: color 0.4s ease;
+	text-decoration: underline;
+}
+
+
+/*scaling images*/
+
+#content ul.carpics li {
+	float: left;
+	padding: 2%;
+	width: 25%;
+}
+
+#content ul.carpics li a img {
+	width: 100%;
+	border: 1px solid #777;
+}
+
+
+
+
+/*----- FOOTER -----*/
+footer {
+	text-align: center;
+	padding: 1.2em 0;
+	font-size: .7em;
+	background-color: #424a54;
+	color: rgba(255,255,255,0.5);
+}
+
+
+/*----- Other Stuff -----*/
+div.keepOpen {
+	clear: both;
+}

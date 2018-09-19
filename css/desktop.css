@@ -1,0 +1,113 @@
+@media only screen and (min-width: 1141px) {
+/*-----BODY -----*/
+	body {
+		
+		background-color: #fff;
+	}
+
+/*-----WRAPPER -----*/
+	#wrapper {
+		
+		padding: 124px 0px 140px 0px;
+	}
+
+/*-----CONTAINER -----*/
+	#container {
+		margin: 0em auto;
+		border: 1px solid #888;
+	}
+
+/*-----HEADER -----*/
+	header {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		position: relative;
+	}
+	
+	header img.headerimage {
+		display: block;
+		position: absolute;
+		top: -45px;
+		right: -60px;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	
+	/*Social Icons*/
+	header ul.icons {
+		padding-right: 95px;
+	}
+	
+	
+	header ul.icons a {
+		-webkit-transition: opacity .5s ease; /*Chrome-Safari*/
+		transition: opacity .5s ease;
+	}
+	
+	
+	header ul.icons a:hover {
+		opacity: 1;
+	}
+	
+	
+/*-----NAVigation -----*/
+
+	nav ul li a {
+		
+		-webkit-transition: background-color .5s ease; /*Chrome-Safari*/
+		transition: background-color .5s ease;
+		
+	}
+
+
+/*-----CONTENT -----*/
+
+	#content a {
+		color: #5c0000;
+		-webkit-transition: color 0.4s ease;
+		transition: color 0.4s ease;
+}
+
+	#content ul.carpics li a img {
+		-webkit-transition: -webkit-transform 0.3s ease-in-out;
+		transition: transform 0.3s ease-in-out;
+	}
+	
+	
+	
+	#content ul.carpics li a:hover img {
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+
+/*----- FOOTER -----*/
+
+	footer {
+		width: 1180px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	footer .left {
+		position: absolute;
+		top: -20px;
+		height: 20px;
+		width: 20px;
+		border-right: 20px solid #424a54;
+		border-top: 20px solid transparent;
+		
+	}
+	
+	
+		footer .right {
+		position: absolute;
+		right: 0;
+		top: -20px;
+		height: 20px;
+		width: 20px;
+		border-left: 20px solid #424a54;
+		border-top: 20px solid transparent;
+		
+	}
+} 
